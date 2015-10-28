@@ -11,6 +11,10 @@
 	color: blue;
 }
 
+.intro a{
+	color: #00b0ff;
+}
+
 body{
 	background-image: url("images/math-background.jpg");
 	background-color: black;
