@@ -1,6 +1,31 @@
-.intro h1{
+.menu{
+	background-color: white;
+}
 
-	color : white;
+.menu  li{
+	display: inline;
+}
+
+.menu a{
+	font-size : 12px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+	color: #00b0ff;
+}
+
+.intro{
+	background-image: url("images/math-background.jpg");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.intro h1{
+	color : #fff;
+	font-size: 48px;
+	font-weight: bold;
 }
 
 .intro p{
@@ -16,8 +41,5 @@
 }
 
 body{
-	background-image: url("images/math-background.jpg");
-	background-color: black;
-	background-repeat: no-repeat;
-	background-size: cover;
+	
 }
