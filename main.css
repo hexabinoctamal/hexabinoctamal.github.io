@@ -1,12 +1,12 @@
-.menu{
+#menu{
 	background-color: white;
 }
 
-.menu  li{
+#menu  li{
 	display: inline;
 }
 
-.menu a{
+#menu a{
 	font-size : 12px;
 	font-weight: bold;
 	padding: 14px 10px;
