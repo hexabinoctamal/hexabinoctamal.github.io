@@ -1,16 +1,17 @@
 $(document).ready(function(){
 
-	$('.pull-left').on('mouseenter', 'li', function(){
+	$('#menu .pull-left').on('mouseenter', 'li', function(){
 		//alert("bro");
-		$(this).find('a').animate({'font-size' : '13px'}, 200);
+		$(this).find('a').animate({'font-size' : '13px'}, 100);
+		$(this).find('a').animate({'opacity': '1'});
 	});
 	
-	$('.pull-left').on('mouseleave', 'li', function(){
+	$('#menu .pull-left').on('mouseleave', 'li', function(){
 		//alert("bro");
-		$(this).find('a').animate({'font-size' : '12px'}, 200);
+		$(this).find('a').animate({'font-size' : '12px'}, 100);
 	});
 	
-	$('.pull-left').on('click', 'li', function(){
+	$('#menu .pull-left').on('click', 'a', function(){
 		alert("Sorry, there's nothing here yet.");
 	});
 	
