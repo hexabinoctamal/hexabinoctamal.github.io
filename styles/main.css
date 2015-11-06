@@ -41,7 +41,7 @@
 	color: #00b0ff;
 }
 
-.bottom{
+.bottom {
 	
 
 }
@@ -55,6 +55,25 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #00b0ff;
+}
+
+.footer {
+	text-align: center;
+
+}
+
+.footer h2 {
+ font-size: 24px;
+ margin-bottom: 25px;
+}
+
+.footer img {
+   margin: 0 10px;
+}
+
+.footer p{
+	font-size: 10px;
+	text-transform: uppercase;
 }
 
 body{
